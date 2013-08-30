@@ -1,5 +1,17 @@
 # Livity Change Log
 
+## Version 0.1.3
+
+* support for arbitrary number of live functions per script
+
+* ability to select which file extensions should be handled by Livity
+
+* bind CTRL+] and CTRL+[ to 'Indent Selection' and 'Outdent Selection' respectively
+
+* show livity preferences in the Unity preferences window
+
+* better standalone preference window organization following unity design
+
 ## Version 0.1.2
 
 * simplistic LiveBehaviour.js and Main scene replaced by LiveGrapher demo
