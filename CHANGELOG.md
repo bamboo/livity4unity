@@ -1,12 +1,47 @@
 # Livity Change Log
 
-## Version 0.1.7
+## Version 0.1.8
 
-* Optimized Goto Symbol implementation that can handle huge projects
-with hundreds of thousands of symbols;
+* Better fuzzy text matching makes it easier to navigate commands and files,
+for instance, "sa" in the Command Palette will now match "Livity:Save:All" instead of "Livity:Save";
+
+* "Fuzzy" text matching strategy is now the default everywhere including completion
+and goto symbol dialogs, old behavior can be restored via the Preferences dialog and
+choosing "Scattered";
+
+* Context menu with save and close actions;
+
+* FIX: no longer lose session state when another view is maximized;
+
+* C# Goto Member dialog will now include properties and events;
+
+* C# code completion for script members will now include properties and events;
+
+* TransposeLineUp (CTRL+ALT+SHIFT+UP) and TransposeLineDown (CTRL+ALT+SHIFT+DOWN) will transpose selections too;
+
+### Key Bindings
+
+#### OSX
+
+* COMMAND+G - Find Next Occurrence
+
+* COMMAND+SHIFT+G - Find Previous Occurrence
+
+* ALT+TAB - Next Document
+
+#### Windows
+
+* CTRL+TAB - Next Document
+
+* CTRL+SHIFT+TAB - Previous Document
+
+## Version 0.1.7
 
 * Fix for "GetManagerFromContext: pointer to object of manager
 'BuildSettings' is NULL (table index 11)" when exiting Unity
+
+* Optimized Goto Symbol implementation that can handle huge projects
+with hundreds of thousands of symbols;
 
 ## Version 0.1.6
 
