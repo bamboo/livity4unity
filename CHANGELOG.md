@@ -1,5 +1,41 @@
 # Livity Change Log
 
+
+## Version 0.1.9
+
+### Improvements
+
+* Livokai color scheme (an adaptation of Monokai, the default Sublime color scheme);
+
+* File location history navigation: Ctrl-Minus for navigating backwards;
+
+* Popups properly support scrolling through the scroll wheel and scrollbar now;
+
+* Better support for Unity 4.3 beta;
+
+* New command - Livity:Text:Discard Changes - to reload document from disk;
+
+* New command - Livity:Line:Cut - bound to Shift-Delete;
+
+* New key binding - Ctrl-8 - search current word;
+
+* New key binding - Ctrl-\ - goto member;
+
+* New key binding - Escape - reset document markers (search and selection);
+
+* Documentation for all [key bindings](KeyBindings.md);
+
+### Fixes
+
+* [Object properties no longer showing up on inspector after [Live] attribute is added](https://github.com/bamboo/livity4unity/issues/4)
+
+* [Support for C# virtual methods](https://github.com/bamboo/livity4unity/issues/1)
+
+* 'Save And Refresh' was bound to the simple 'Save' command and wouldn't refresh;
+
+* 'Page Up' and 'Page Down' key bindings were missing on OSX;
+
+
 ## Version 0.1.8
 
 * Better fuzzy text matching makes it easier to navigate commands and files,
@@ -35,6 +71,7 @@ choosing "Scattered";
 
 * CTRL+SHIFT+TAB - Previous Document
 
+
 ## Version 0.1.7
 
 * Fix for "GetManagerFromContext: pointer to object of manager
@@ -42,6 +79,7 @@ choosing "Scattered";
 
 * Optimized Goto Symbol implementation that can handle huge projects
 with hundreds of thousands of symbols;
+
 
 ## Version 0.1.6
 
@@ -83,6 +121,7 @@ with hundreds of thousands of symbols;
 
 * Smoother caret animation;
 
+
 ## Version 0.1.5
 
 * First document will open much faster on osx;
@@ -90,6 +129,7 @@ with hundreds of thousands of symbols;
 * SHIFT+HOME will first extend the selection to the first character of the line and then to the beginning of the line;
 
 * better textures;
+
 
 ## Version 0.1.4
 
@@ -105,6 +145,7 @@ with hundreds of thousands of symbols;
 
 * Extensibility: expose editing session API.
 
+
 ## Version 0.1.3
 
 * support for arbitrary number of live functions per script
@@ -116,6 +157,7 @@ with hundreds of thousands of symbols;
 * show livity preferences in the Unity preferences window
 
 * better standalone preference window organization following unity design
+
 
 ## Version 0.1.2
 
@@ -139,6 +181,7 @@ with hundreds of thousands of symbols;
 
 * Vimstalgia mode now binds SPACE key to "move right" like vim
 
+
 ## Version 0.1.1
 
 * add Provider suffix to all language specific components to avoid conflicts with UnityScript and Boo builtin names
@@ -156,6 +199,7 @@ with hundreds of thousands of symbols;
 * method name is redundant in the description window
 
 * use different defaults for Unity Pro and Unity Free skins
+
 
 ## Version 0.1.0
 
