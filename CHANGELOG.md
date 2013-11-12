@@ -1,5 +1,24 @@
 # Livity Change Log
 
+## Version 0.2.1
+
+* Code watches no longer force a dependency on Boo.Lang.Compiler.dll;
+
+* Code completion for array element members (array[index].);
+
+* Better support for nested types;
+
+* Support for primitive C# type names (object, string, etc);
+
+* Text styling subsystem support for borders;
+
+* Livokai is now the default color scheme for Unity dark;
+
+## Version 0.2.0
+
+* Fixed handling of live functions with more than four arguments;
+
+* Support for live coding from Visual Studio 2012 (VS2010 is no longer supported);
 
 ## Version 0.1.9
 
