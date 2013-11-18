@@ -1,5 +1,21 @@
 # Livity Change Log
 
+## Version 0.2.4
+
+* Allow Livity folder to be moved or renamed;
+
+## Version 0.2.3
+
+* Minor AssetStore package fix;
+
+## Version 0.2.2
+
+* New shortcuts: Alt-Down/Up - goto next/previous member in file;
+
+* New menu item: Assets/Create/Markdown File;
+
+* FIX: the timer used to throttle changes for Undo was not being properly disposed of;
+
 ## Version 0.2.1
 
 * Code watches no longer force a dependency on Boo.Lang.Compiler.dll;
